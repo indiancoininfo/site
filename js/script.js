@@ -12,22 +12,62 @@ sidebarClose.addEventListener("click", () => {
 
   if (window.innerWidth < 768) {
     if (isSidebarOpen) {
+      menu.scrollTop = 0;
       contentDiv.style.display = "none";
     } else {
       contentDiv.style.display = "block";
     }
+  } else {
+    if (isSidebarOpen) {
+      menu.scrollTop = 0;
+    }
   }
 });
-
 
 window.onload = function () {
   const isMobile = window.innerWidth < 768;
   if (isMobile) {
     sidebar.classList.toggle("close");
   }
+
+  handleHashNavigation();
+};
+
+window.addEventListener("hashchange", handleHashNavigation);
+window.addEventListener("popstate", handleHashNavigation);
+
+function handleHashNavigation() {
   const contentDiv = document.getElementById("dynamic-content");
-  contentDiv.scrollIntoView({ behavior: "smooth", block: "start" });
+  const isMobile = window.innerWidth < 768;
+
+  if (isMobile) {
+    sidebar.classList.add("close");
+    menu.classList.remove("submenu-active");
+    menuItems.forEach(item => item.classList.remove("show-submenu"));
+    contentDiv.style.display = "block";
+  }
+
+  menu.scrollTop = 0;
+
+  const hash = decodeURIComponent(window.location.hash.substring(1));
+  if (hash) {
+    loadContent(hash);
+  } else {
+    loadDefaultContent();
+  }
+
+  setTimeout(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, 0);
 }
+
+
+function loadDefaultContent() {
+  const template = document.getElementById("default-content-template");
+  const contentDiv = document.getElementById("dynamic-content");
+  contentDiv.innerHTML = template.innerHTML;
+}
+
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -54,155 +94,155 @@ function loadContent(text) {
   if (isMobile) {
     const dynamicContent = document.getElementById("dynamic-content");
     dynamicContent.style.display = "block";
-    sidebar.classList.toggle("close");
+    sidebar.classList.add("close");
   }
 
   switch (text) {
-    case "COIN GUIDE":
+    case "COIN_GUIDE":
       loadCoinGuide();
       break;
-    case "COIN ANATOMY":
+    case "COIN_ANATOMY":
       loadCoinAnatomy();
       break;
-    case "COIN GRADES":
+    case "COIN_GRADES":
       loadCoinGrades();
       break;
-    case "COIN RARITY":
+    case "COIN_RARITY":
       loadCoinRarity();
       break;
-    case "COIN MINTS":
+    case "COIN_MINTS":
       loadCoinMints();
       break;
-    case "MINT MARKS":
+    case "MINT_MARKS":
       loadMintMarks();
       break;
-    case "FAIRS AND EVENTS":
+    case "FAIRS_AND_EVENTS":
       loadFairAndEvents();
       break;
-    case "NUMISMATICS SOCIETIES":
+    case "NUMISMATICS_SOCIETIES":
       loadNumismaticsSocieties();
       break;
-    case "COMMEMORATIVE COINS":
+    case "COMMEMORATIVE_COINS":
       loadCommemorativeCoins();
       break;
-    case "CC 5 PAISE":
+    case "CC_5_PAISE":
       loadCC5Paise();
       break;
-    case "CC 10 PAISE":
+    case "CC_10_PAISE":
       loadCC10Paise();
       break;
-    case "CC 20 PAISE":
+    case "CC_20_PAISE":
       loadCC20Paise();
       break;
-    case "CC 25 PAISE":
+    case "CC_25_PAISE":
       loadCC25Paise();
       break;
-    case "CC 50 PAISE":
+    case "CC_50_PAISE":
       loadCC50Paise();
       break;
-    case "CC 1 RUPEE":
+    case "CC_1_RUPEE":
       loadCC1Rupee();
       break;
-    case "CC 2 RUPEES":
+    case "CC_2_RUPEES":
       loadCC2Rupees();
       break;
-    case "CC 5 RUPEES":
+    case "CC_5_RUPEES":
       loadCC5Rupees();
       break;
-    case "CC 10 RUPEES":
+    case "CC_10_RUPEES":
       loadCC10Rupees();
       break;
-    case "CC RARE LIST":
+    case "CC_RARE_LIST":
       loadCCRareList();
       break;
-    case "CC SCARCE LIST":
+    case "CC_SCARCE_LIST":
       loadCCScarceList();
       break;
-    case "DEFINITIVE COINS":
+    case "DEFINITIVE_COINS":
       loadDefinitiveCoins();
       break;
-    case "DC ONE PICE":
+    case "DC_ONE_PICE":
       loadDCOnePice();
       break;
-    case "DC HALF ANNA":
+    case "DC_HALF_ANNA":
       loadDCHalfAnna();
       break;
-    case "DC ONE ANNA":
+    case "DC_ONE_ANNA":
       loadDCOneAnna();
       break;
-    case "DC TWO ANNA":
+    case "DC_TWO_ANNA":
       loadDCTwoAnna();
       break;
-    case "DC 1/4 RUPEE":
+    case "DC_1_4_RUPEE":
       loadDC1By4Rupee();
       break;
-    case "DC 1/2 RUPEE":
+    case "DC_1_2_RUPEE":
       loadDC1By2Rupee();
       break;
-    case "DC 1 NAYA PAISA":
+    case "DC_1_NAYA_PAISA":
       loadDC1NayaPaisa();
       break;
-    case "DC 1 PAISA":
+    case "DC_1_PAISA":
       loadDC1Paisa();
       break;
-    case "DC 2 NAYE PAISE":
+    case "DC_2_NAYE_PAISE":
       loadDC2NayePaise();
       break;
-    case "DC 2 PAISE":
+    case "DC_2_PAISE":
       loadDC2Paisa();
       break;
-    case "DC 3 PAISE":
+    case "DC_3_PAISE":
       loadDC3Paisa();
       break;
-    case "DC 5 NAYE PAISE":
+    case "DC_5_NAYE_PAISE":
       loadDC5NayePaise();
       break;
-    case "DC 5 PAISE":
+    case "DC_5_PAISE":
       loadDC5Paise();
       break;
-    case "DC 10 NAYE PAISE":
+    case "DC_10_NAYE_PAISE":
       loadDC10NayePaise();
       break;
-    case "DC 10 PAISE":
+    case "DC_10_PAISE":
       loadDC10Paise();
       break;
-    case "DC 20 PAISE":
+    case "DC_20_PAISE":
       loadDC20Paise();
       break;
-    case "DC 25 NAYE PAISE":
+    case "DC_25_NAYE_PAISE":
       loadDC25NayePaise();
       break;
-    case "DC 25 PAISE":
+    case "DC_25_PAISE":
       loadDC25Paise();
       break;
-    case "DC 50 NAYE PAISE":
+    case "DC_50_NAYE_PAISE":
       loadDC50NayePaise();
       break;
-    case "DC 50 PAISE":
+    case "DC_50_PAISE":
       loadDC50Paise();
       break;
-    case "DC 1 RUPEE":
+    case "DC_1_RUPEE":
       loadDC1Rupee();
       break;
-    case "DC 2 RUPEES":
+    case "DC_2_RUPEES":
       loadDC2Rupees();
       break;
-    case "DC 5 RUPEES":
+    case "DC_5_RUPEES":
       loadDC5Rupees();
       break;
-    case "DC 10 RUPEES":
+    case "DC_10_RUPEES":
       loadDC10Rupees();
       break;
-    case "DC 20 RUPEES":
+    case "DC_20_RUPEES":
       loadDC20Rupees();
       break;
-    case "COIN ANALYSIS":
+    case "COIN_ANALYSIS":
       loadCoinAnalysis();
       break;
-    case "ANA COMMEMORATIVE COINS":
+    case "ANA_COMMEMORATIVE_COINS":
       loadAnaCommemorativeCoins();
       break;
-    case "ANA DEFINITIVE COINS":
+    case "ANA_DEFINITIVE_COINS":
       loadAnaDefinitiveCoins();
       break;
     case "SETTINGS":
