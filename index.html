@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Coin Info</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="sidebar">
+        <a href="javascript:location.reload()" class="logo">Indian Coin Info</a>
+
+        <div class="menu-content">
+            <ul class="menu-items">
+
+                <!-- Menu 1 -->
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>COIN GUIDE</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <ul class="menu-items submenu">
+                        <li class="menu-title"><i class="fa-solid fa-chevron-left"></i>COIN GUIDE</li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN GUIDE')">REPUBLIC INDIA COINAGE
+                                HISTORY</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN ANATOMY')">COIN ANATOMY</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN GRADES')">COIN GRADES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN RARITY')">COIN RARITY</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN MINTS')">COIN MINTS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('MINT MARKS')">MINT MARKS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COMMEMORATIVE COINS')">COMMEMORATIVE COINS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DEFINITIVE COINS')">DEFINITIVE COINS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('FAIRS AND EVENTS')">FAIRS AND EVENTS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('NUMISMATICS SOCIETIES')">NUMISMATICS
+                                SOCIETIES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('COIN ANALYSIS')">COIN ANALYSIS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('SETTINGS')">SETTINGS</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menu 2 -->
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>COMMEMORATIVE COINS</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <ul class="menu-items submenu">
+                        <li class="menu-title"><i class="fa-solid fa-chevron-left"></i>COMMEMORATIVE COINS</li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 5 PAISE')">5 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 10 PAISE')">10 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 20 PAISE')">20 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 25 PAISE')">25 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 50 PAISE')">50 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 1 RUPEE')">1 RUPEE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 2 RUPEES')">2 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 5 RUPEES')">5 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC 10 RUPEES')">10 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC RARE LIST')">RARE LIST</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('CC SCARCE LIST')">SCARCE LIST</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menu 3 -->
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>DEFINITIVE COINS</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <ul class="menu-items submenu">
+                        <li class="menu-title"><i class="fa-solid fa-chevron-left"></i>DEFINITIVE COINS</li>
+                        <li class="item"><a href="#" onclick="loadContent('DC ONE PICE')">ONE PICE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC HALF ANNA')">HALF ANNA</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC ONE ANNA')">ONE ANNA</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC TWO ANNA')">TWO ANNA</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 1/4 RUPEE')">1/4 RUPEE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 1/2 RUPEE')">1/2 RUPEE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 1 NAYA PAISA')">1 NAYA PAISA</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 1 PAISA')">1 PAISA</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 2 NAYE PAISE')">2 NAYE PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 2 PAISE')">2 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 3 PAISE')">3 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 5 NAYE PAISE')">5 NAYE PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 5 PAISE')">5 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 10 NAYE PAISE')">10 NAYE PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 10 PAISE')">10 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 20 PAISE')">20 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 25 NAYE PAISE')">25 NAYE PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 25 PAISE')">25 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 50 NAYE PAISE')">50 NAYE PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 50 PAISE')">50 PAISE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 1 RUPEE')">1 RUPEE</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 2 RUPEES')">2 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 5 RUPEES')">5 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 10 RUPEES')">10 RUPEES</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('DC 20 RUPEES')">20 RUPEES</a></li>
+                    </ul>
+                </li>
+
+                <!-- Menu 4 -->
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>COIN ANALYSIS</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <ul class="menu-items submenu">
+                        <li class="menu-title"><i class="fa-solid fa-chevron-left"></i>COIN ANALYSIS</li>
+                        <li class="item"><a href="#" onclick="loadContent('ANA COMMEMORATIVE COINS')">COMMEMORATIVE
+                                COINS</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('ANA DEFINITIVE COINS')">DEFINITIVE COINS</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Menu 5 -->
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>SETTINGS</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <ul class="menu-items submenu">
+                        <li class="menu-title"><i class="fa-solid fa-chevron-left"></i>SETTINGS</li>
+                        <li class="item"><a href="#" onclick="loadContent('BACKUP')">BACKUP</a></li>
+                        <li class="item"><a href="#" onclick="loadContent('RESTORE')">RESTORE</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+        <div id="dynamic-content">
+            <h1>Welcome to the Indian Coin Information</h1>
+            <p><strong>Explore the rich heritage of India's post-independence coinage, from 1950 to present.</strong>
+            </p>
+
+            <h2>Definitive Coins of India</h2>
+            <p>This portal offers an exhaustive archive of all definitive coins issued in India after it became a
+                republic in 1950. Learn about the evolution of everyday coinage through distinct phases—from the
+                <em>Naya Paisa Series</em> and <em>decimalization</em>, to modern stainless steel and bi-metallic
+                issues.</p>
+            <p>Highlights include:</p>
+            <ul>
+                <li>Complete chronology of definitive coin series from 1950 to present</li>
+                <li>Details on metal composition, denominations, and design changes</li>
+                <li>Special series like the Unity in Diversity (2004), Hasta Mudra (2007), and Grain Series (2019)</li>
+            </ul>
+
+            <h2>Commemorative Coins of India</h2>
+            <p>Discover the stories behind every commemorative coin issued post-1950. These coins celebrate national
+                figures, cultural icons, historic milestones, and government initiatives.</p>
+            <p>Key features:</p>
+            <ul>
+                <li>Coin-by-coin listing with themes, years, and minting details</li>
+                <li>Insight into rare and limited-edition issues</li>
+                <li>Coverage of symbolic releases like Azadi Ka Amrit Mahotsav (2022)</li>
+            </ul>
+
+            <h2>Coin Anatomy, Grades, and Rarity</h2>
+            <p>New to numismatics? Explore detailed guides on:</p>
+            <ul>
+                <li>Coin structure: Obverse, reverse, legends, rims, and edges</li>
+                <li>Mint marks and their significance</li>
+                <li>Grading scales from Poor (P) to Mint State (MS-70)</li>
+                <li>How to evaluate rarity and value of Indian coins</li>
+            </ul>
+
+            <h2>Live Coin Fairs & Societies</h2>
+            <p>Stay updated with upcoming numismatic events across India. Whether you're a casual collector or a serious
+                investor, our calendar covers major exhibitions and society meetups nationwide.</p>
+
+            <h2>Start Exploring</h2>
+            <p>Use the navigation to browse by year, denomination, or coin type. Whether you're looking to catalog your
+                collection or dive into the historical journey of Indian coins, everything starts here.</p>
+
+            <p><strong>Happy Collecting!</strong></p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/heading1.js"></script>
+    <script src="js/heading2.js"></script>
+    <script src="js/heading3.js"></script>
+</body>
+
+</html>
