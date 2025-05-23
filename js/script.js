@@ -254,9 +254,11 @@ function loadContent(text) {
     case "RESTORE":
       loadRestore();
       break;
+    default:
+      loadDefaultContent();
+      break;
   }
 
   const contentDiv = document.getElementById("dynamic-content");
   contentDiv.scrollIntoView({ behavior: "smooth", block: "start" });
 }
-
