@@ -2,72 +2,84 @@
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url><loc>https://indiancoininfo.site/</loc></url>
+	<!-- Main -->
+	<url>
+		<loc>https://indiancoininfo.site/index.html</loc>
+		<priority>1.0</priority>
+		<changefreq>monthly</changefreq>
+	</url>
 
-  <!-- COIN GUIDE -->
-  <url><loc>https://indiancoininfo.site/#COIN_GUIDE</loc></url>
-  <url><loc>https://indiancoininfo.site/#COIN_ANATOMY</loc></url>
-  <url><loc>https://indiancoininfo.site/#COIN_GRADES</loc></url>
-  <url><loc>https://indiancoininfo.site/#COIN_RARITY</loc></url>
-  <url><loc>https://indiancoininfo.site/#COIN_MINTS</loc></url>
-  <url><loc>https://indiancoininfo.site/#MINT_MARKS</loc></url>
-  <url><loc>https://indiancoininfo.site/#COMMEMORATIVE_COINS</loc></url>
-  <url><loc>https://indiancoininfo.site/#DEFINITIVE_COINS</loc></url>
-  <url><loc>https://indiancoininfo.site/#NUMISMATICS_SOCIETIES</loc></url>
-  <url><loc>https://indiancoininfo.site/#COIN_ANALYSIS</loc></url>
-  <url><loc>https://indiancoininfo.site/#SETTINGS</loc></url>
+	<!-- Coin Catalogs -->
+	<url>
+		<loc>https://indiancoininfo.site/commemorative.html</loc>
+		<priority>0.9</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/definitive.html</loc>
+		<priority>0.9</priority>
+		<changefreq>monthly</changefreq>
+	</url>
 
-  <!-- COMMEMORATIVE COINS -->
-  <url><loc>https://indiancoininfo.site/#CC_5_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_10_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_20_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_25_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_50_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_1_RUPEE</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_2_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_5_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_10_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_RARE_LIST</loc></url>
-  <url><loc>https://indiancoininfo.site/#CC_SCARCE_LIST</loc></url>
+	<!-- Numismatic Guides -->
+	<url>
+		<loc>https://indiancoininfo.site/guides.html</loc>
+		<priority>0.8</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/coin-guide.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/coin-anatomy.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/coin-grades.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/coin-rarity.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/coin-mints.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/mint-marks.html</loc>
+		<priority>0.7</priority>
+		<changefreq>yearly</changefreq>
+	</url>
 
-  <!-- DEFINITIVE COINS -->
-  <url><loc>https://indiancoininfo.site/#DC_ONE_PICE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_HALF_ANNA</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_ONE_ANNA</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_TWO_ANNA</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_1_4_RUPEE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_1_2_RUPEE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_1_NAYA_PAISA</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_1_PAISA</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_2_NAYE_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_2_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_3_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_5_NAYE_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_5_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_10_NAYE_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_10_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_20_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_25_NAYE_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_25_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_50_NAYE_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_50_PAISE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_1_RUPEE</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_2_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_5_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_10_RUPEES</loc></url>
-  <url><loc>https://indiancoininfo.site/#DC_20_RUPEES</loc></url>
+	<!-- Legal -->
+	<url>
+		<loc>https://indiancoininfo.site/disclaimer.html</loc>
+		<priority>0.3</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/privacy.html</loc>
+		<priority>0.3</priority>
+		<changefreq>yearly</changefreq>
+	</url>
+	<url>
+		<loc>https://indiancoininfo.site/terms.html</loc>
+		<priority>0.3</priority>
+		<changefreq>yearly</changefreq>
+	</url>
 
-  <!-- COIN ANALYSIS -->
-  <url><loc>https://indiancoininfo.site/#ANA_COMMEMORATIVE_COINS</loc></url>
-  <url><loc>https://indiancoininfo.site/#ANA_DEFINITIVE_COINS</loc></url>
-
-  <!-- SETTINGS -->
-  <url><loc>https://indiancoininfo.site/#BACKUP</loc></url>
-  <url><loc>https://indiancoininfo.site/#RESTORE</loc></url>
-
-  <!-- OTHERS -->
-  <url><loc>https://indiancoininfo.site/#DISCLAIMER</loc></url>
-  <url><loc>https://indiancoininfo.site/#PRIVACY_POLICY</loc></url>
-  <url><loc>https://indiancoininfo.site/#T_N_C</loc></url>
+	<!-- Sitemap itself -->
+	<url>
+		<loc>https://indiancoininfo.site/sitemap.html</loc>
+		<priority>0.2</priority>
+		<changefreq>yearly</changefreq>
+	</url>
 
 </urlset>
