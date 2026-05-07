@@ -2,84 +2,84 @@
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-	<!-- Main -->
-	<url>
-		<loc>https://indiancoininfo.site/index.html</loc>
-		<priority>1.0</priority>
-		<changefreq>monthly</changefreq>
-	</url>
+  <!-- Main -->
+  <url>
+    <loc>https://indiancoininfo.site/index.html</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 
-	<!-- Coin Catalogs -->
-	<url>
-		<loc>https://indiancoininfo.site/commemorative.html</loc>
-		<priority>0.9</priority>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/definitive.html</loc>
-		<priority>0.9</priority>
-		<changefreq>monthly</changefreq>
-	</url>
+  <!-- Coin Catalogs -->
+  <url>
+    <loc>https://indiancoininfo.site/commemorative.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/definitive.html</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 
-	<!-- Numismatic Guides -->
-	<url>
-		<loc>https://indiancoininfo.site/guides.html</loc>
-		<priority>0.8</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/coin-guide.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/coin-anatomy.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/coin-grades.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/coin-rarity.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/coin-mints.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/mint-marks.html</loc>
-		<priority>0.7</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+  <!-- Numismatic Guides -->
+  <url>
+    <loc>https://indiancoininfo.site/guides.html</loc>
+    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin-guide.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin-anatomy.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin-grades.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin-rarity.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin-mints.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/mint-marks.html</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 
-	<!-- Legal -->
-	<url>
-		<loc>https://indiancoininfo.site/disclaimer.html</loc>
-		<priority>0.3</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/privacy.html</loc>
-		<priority>0.3</priority>
-		<changefreq>yearly</changefreq>
-	</url>
-	<url>
-		<loc>https://indiancoininfo.site/terms.html</loc>
-		<priority>0.3</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+  <!-- Legal -->
+  <url>
+    <loc>https://indiancoininfo.site/disclaimer.html</loc>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/privacy.html</loc>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/terms.html</loc>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 
-	<!-- Sitemap itself -->
-	<url>
-		<loc>https://indiancoininfo.site/sitemap.html</loc>
-		<priority>0.2</priority>
-		<changefreq>yearly</changefreq>
-	</url>
+  <!-- Sitemap itself -->
+  <url>
+    <loc>https://indiancoininfo.site/sitemap.html</loc>
+    <priority>0.2</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 
 </urlset>
