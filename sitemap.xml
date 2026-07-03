@@ -287,17 +287,4 @@
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
-  <!-- Sitemap itself -->
-  <url>
-    <loc>https://indiancoininfo.site/sitemap.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <priority>0.2</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
-    <loc>https://indiancoininfo.site/collection_summary.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
 </urlset>
