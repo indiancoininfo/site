@@ -1,85 +1,303 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <!-- Main -->
   <url>
-    <loc>https://indiancoininfo.site/index.html</loc>
+    <loc>https://indiancoininfo.site/</loc>
+    <lastmod>2026-06-30</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <!-- Coin Catalogs -->
   <url>
     <loc>https://indiancoininfo.site/commemorative.html</loc>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_5_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_10_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_20_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_25_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_50_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_1_Rupee</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_2_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_5_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/coin_catalog.html?d=Commemorative_Coin_10_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://indiancoininfo.site/definitive.html</loc>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
-
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_One_Pice</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_Half_Anna</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_One_Anna</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_Two_Annas</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_1_BY_4_Rupee</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_1_BY_2_Rupee</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_1_Naya_Paisa</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_1_Paisa</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_2_Naye_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_2_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_3_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_5_Naye_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_5_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_10_Naye_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_10_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_20_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_25_Naye_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_25_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_50_Naye_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_50_Paise</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_1_Rupee</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_2_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_5_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_10_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/def_catalog.html?d=Definitive_Coin_20_Rupees</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
   <!-- Numismatic Guides -->
   <url>
     <loc>https://indiancoininfo.site/guides.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/coin-guide.html</loc>
+    <loc>https://indiancoininfo.site/coin_guide.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/coin-anatomy.html</loc>
+    <loc>https://indiancoininfo.site/coin_anatomy.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/coin-grades.html</loc>
+    <loc>https://indiancoininfo.site/coin_grades.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/coin-rarity.html</loc>
+    <loc>https://indiancoininfo.site/coin_rarity.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/coin-mints.html</loc>
+    <loc>https://indiancoininfo.site/coin_mints.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://indiancoininfo.site/mint-marks.html</loc>
+    <loc>https://indiancoininfo.site/mint_marks.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <!-- Legal -->
   <url>
     <loc>https://indiancoininfo.site/disclaimer.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://indiancoininfo.site/privacy.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://indiancoininfo.site/terms.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <!-- Sitemap itself -->
   <url>
     <loc>https://indiancoininfo.site/sitemap.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.2</priority>
     <changefreq>yearly</changefreq>
   </url>
-
+  <url>
+    <loc>https://indiancoininfo.site/collection_summary.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
