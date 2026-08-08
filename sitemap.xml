@@ -268,6 +268,37 @@
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
+  <!-- Articles -->
+  <url>
+    <loc>https://indiancoininfo.site/articles.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/article_mahalanobis_variants.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/article_tilak_withdrawn.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/article_malaviya_mint_marks.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://indiancoininfo.site/article_bose_withdrawn.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
   <!-- Legal -->
   <url>
     <loc>https://indiancoininfo.site/disclaimer.html</loc>
