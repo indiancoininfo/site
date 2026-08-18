@@ -225,12 +225,12 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
-  <!-- Numismatic Guides -->
+  <!-- Numismatic Resources -->
   <url>
-    <loc>https://indiancoininfo.site/guides.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://indiancoininfo.site/resources.html</loc>
+    <lastmod>2026-08-18</lastmod>
     <priority>0.8</priority>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://indiancoininfo.site/coin_guide.html</loc>
@@ -269,12 +269,6 @@
     <changefreq>yearly</changefreq>
   </url>
   <!-- Articles -->
-  <url>
-    <loc>https://indiancoininfo.site/articles.html</loc>
-    <lastmod>2026-08-07</lastmod>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
   <url>
     <loc>https://indiancoininfo.site/article_mahalanobis_variants.html</loc>
     <lastmod>2026-08-07</lastmod>
