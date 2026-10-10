@@ -1,8 +1,8 @@
+# Search engines: full access.
 User-agent: *
 Allow: /
-Disallow: /index.html
 
-# AI crawlers
+# AI training/answer crawlers: blocked.
 User-agent: GPTBot
 Disallow: /
 
@@ -26,6 +26,8 @@ Disallow: /
 
 User-agent: Bytespider
 Disallow: /
+
+Sitemap: https://indiancoininfo.site/sitemap.xml
 
 User-agent: CCBot
 Disallow: /
