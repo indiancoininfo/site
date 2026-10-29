@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Indian Coin Information Portal",
+  "short_name": "Indian Coin Info",
+  "description": "Explore India's post-independence coinage, commemorative issues, mint marks, and collecting guides.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "categories": ["education", "reference"],
+  "icons": [
+    {
+      "src": "/images/app-icon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/app-icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
